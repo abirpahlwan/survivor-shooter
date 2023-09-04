@@ -1,0 +1,399 @@
+fileFormatVersion: 2
+guid: f38030b4919424a4da5b7824f39ca2c0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pocket_Mortys-Alien_Rick-4_Arms-Move_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 327
+        width: 122
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe48e817cd70f484e9cfc1cc4d8c1316
+      internalID: 2116754141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pocket_Mortys-Alien_Rick-4_Arms-Move_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 326
+        width: 122
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82209a9a9687bd41a3db820bb42b117
+      internalID: 1496286959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pocket_Mortys-Alien_Rick-4_Arms-Move_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 327
+        width: 122
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3edb5868861d947bfb37d63b6c73c3
+      internalID: 1649020989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pocket_Mortys-Alien_Rick-4_Arms-Move_3
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 328
+        width: 122
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3da630a3ec2c54b967043fd661901d
+      internalID: -1860999244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pocket_Mortys-Alien_Rick-4_Arms-Move_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 164
+        width: 105
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54dbe7f7afc6974da51ab6425d02e45
+      internalID: -970161304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pocket_Mortys-Alien_Rick-4_Arms-Move_5
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 165
+        width: 105
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebdacc5193369bb4da0eb4aab717657d
+      internalID: 707746653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pocket_Mortys-Alien_Rick-4_Arms-Move_6
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 164
+        width: 105
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe527e3197bff4498411c226526bff4
+      internalID: 269454664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pocket_Mortys-Alien_Rick-4_Arms-Move_7
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 163
+        width: 104
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c03e317f63242c4a81a92910b982895
+      internalID: -115297073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pocket_Mortys-Alien_Rick-4_Arms-Move_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 122
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff98c04ae98b5544bcc7466329c6200
+      internalID: 611655914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pocket_Mortys-Alien_Rick-4_Arms-Move_9
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 3
+        width: 122
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03717eded072988439ea871ba19c236b
+      internalID: 1725184728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pocket_Mortys-Alien_Rick-4_Arms-Move_10
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2
+        width: 122
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa3a69e577cb644faab6ed07bef56b0
+      internalID: 1648097811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pocket_Mortys-Alien_Rick-4_Arms-Move_11
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 2
+        width: 122
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e12edbf7b5ecc443807eab23fe6133d
+      internalID: 2013648036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Pocket_Mortys-Alien_Rick-4_Arms-Move_1: 1496286959
+      Pocket_Mortys-Alien_Rick-4_Arms-Move_7: -115297073
+      Pocket_Mortys-Alien_Rick-4_Arms-Move_5: 707746653
+      Pocket_Mortys-Alien_Rick-4_Arms-Move_8: 611655914
+      Pocket_Mortys-Alien_Rick-4_Arms-Move_2: 1649020989
+      Pocket_Mortys-Alien_Rick-4_Arms-Move_11: 2013648036
+      Pocket_Mortys-Alien_Rick-4_Arms-Move_6: 269454664
+      Pocket_Mortys-Alien_Rick-4_Arms-Move_10: 1648097811
+      Pocket_Mortys-Alien_Rick-4_Arms-Move_9: 1725184728
+      Pocket_Mortys-Alien_Rick-4_Arms-Move_4: -970161304
+      Pocket_Mortys-Alien_Rick-4_Arms-Move_0: 2116754141
+      Pocket_Mortys-Alien_Rick-4_Arms-Move_3: -1860999244
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
