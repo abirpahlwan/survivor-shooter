@@ -6,10 +6,22 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
-    [SerializeField] 
-    private float moveSpeed;
-    [HideInInspector]
-    public Vector2 moveDirection;
+    
+    [SerializeField] private float moveSpeed;
+    [HideInInspector] public Vector2 moveDirection;
+    [HideInInspector] public int currentDirection;
+    
+    /*public enum Direction
+    {
+        Right = 0,
+        UpRight = 1,
+        Up = 2,
+        UpLeft = 3,
+        Left = 4,
+        DownLeft = 5,
+        Down = 6,
+        DownRight = 7
+    }*/
 
     void Start()
     {
@@ -19,11 +31,17 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         HandleInput();
+        // HandleDirection();
     }
 
     private void FixedUpdate()
     {
         Move();
+    }
+    
+    void Move()
+    {
+        rb.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed );
     }
 
     void HandleInput()
@@ -34,8 +52,17 @@ public class PlayerMovement : MonoBehaviour
         moveDirection = new Vector2(moveX, moveY).normalized;
     }
 
-    void Move()
+    /*void HandleDirection()
     {
-        rb.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed );
-    }
+        // 0 degrees is to the right, and the angle increases counter-clockwise
+        float angleDegrees = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg;
+        
+        // Normalize the angle to be between 0 and 360
+        if (angleDegrees < 0) {
+            angleDegrees += 360;
+        }
+
+        // Determine the direction based on angle
+        currentDirection = (int) angleDegrees / 45;
+    }*/
 }
