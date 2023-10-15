@@ -8,8 +8,10 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     
     [SerializeField] private float moveSpeed;
+    
     [HideInInspector] public Vector2 moveDirection;
-    [HideInInspector] public int currentDirection;
+    [HideInInspector] public float lastHorizontalVector;
+    [HideInInspector] public float lastVerticalVector;
     
     /*public enum Direction
     {
@@ -50,6 +52,16 @@ public class PlayerMovement : MonoBehaviour
         float moveY = Input.GetAxisRaw("Vertical");
 
         moveDirection = new Vector2(moveX, moveY).normalized;
+
+        if (moveDirection.x != 0)
+        {
+            lastHorizontalVector = moveDirection.x;
+        }
+        
+        if (moveDirection.y != 0)
+        {
+            lastVerticalVector = moveDirection.y;
+        }
     }
 
     /*void HandleDirection()

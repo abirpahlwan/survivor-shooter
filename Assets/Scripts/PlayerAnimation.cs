@@ -7,8 +7,7 @@ public class PlayerAnimation : MonoBehaviour
     private Animator animator;
     private PlayerMovement movement;
     private SpriteRenderer playerSprite;
-    
-    
+
     void Start()
     {
         animator = GetComponent<Animator>();
