@@ -467,7 +467,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 6186436123841862798, guid: 385e805fa3882a64d8ba84374e8f868d, type: 3}
   damage: 0
-  speed: 0
+  speed: 10
   cooldownDuration: 2
   pierce: 0
 --- !u!1 &2011156615 stripped
@@ -557,7 +557,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2147088390}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.12, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -578,7 +578,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.016951203, y: -0.05085367}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -589,7 +589,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.88, y: 6.12}
+  m_Size: {x: 2.7615216, y: 3.662467}
   m_EdgeRadius: 0
 --- !u!50 &2147088394
 Rigidbody2D:
@@ -626,8 +626,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   moveDirection: {x: 0, y: 0}
-  lastHorizontalVector: 0
-  lastVerticalVector: 0
+  lastMoveDirection: {x: 0, y: 0}
+  lastMoveX: 0
+  lastMoveY: 0
 --- !u!95 &2147088396
 Animator:
   serializedVersion: 5

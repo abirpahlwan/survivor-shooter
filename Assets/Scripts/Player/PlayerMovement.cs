@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -10,8 +11,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float moveSpeed;
     
     [HideInInspector] public Vector2 moveDirection;
-    [HideInInspector] public float lastHorizontalVector;
-    [HideInInspector] public float lastVerticalVector;
+    [HideInInspector] public Vector2 lastMoveDirection;
+    [HideInInspector] public float lastMoveX;
+    [HideInInspector] public float lastMoveY;
     
     /*public enum Direction
     {
@@ -28,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        lastMoveDirection = new Vector2(1, 0);
     }
 
     void Update()
@@ -55,12 +58,20 @@ public class PlayerMovement : MonoBehaviour
 
         if (moveDirection.x != 0)
         {
-            lastHorizontalVector = moveDirection.x;
+            lastMoveX = moveDirection.x;
+            lastMoveDirection = new Vector2(lastMoveX, 0);
         }
         
         if (moveDirection.y != 0)
         {
-            lastVerticalVector = moveDirection.y;
+            lastMoveY = moveDirection.y;
+            lastMoveDirection = new Vector2(0, lastMoveY);
+        }
+
+        if (moveDirection.x != 0 && moveDirection.y != 0)
+        {
+            lastMoveDirection = new Vector2(lastMoveX, lastMoveY);
+            
         }
     }
 
