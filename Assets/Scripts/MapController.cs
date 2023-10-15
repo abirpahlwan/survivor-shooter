@@ -26,7 +26,6 @@ public class MapController : MonoBehaviour
     void FixedUpdate()
     {
         HandleMap();
-        // StartCoroutine(StartOptimizeMap());
         OptimizeMap();
     }
 

@@ -23,16 +23,6 @@ public class TerrainChunk : MonoBehaviour
         SpawnProps();
     }
 
-    void Update()
-    {
-        
-    }
-
-    private void OnDisable()
-    {
-        // Destroy(gameObject);
-    }
-
     void SpawnProps()
     {
         foreach (GameObject spawnPoint in PropSpawnPoints) {
