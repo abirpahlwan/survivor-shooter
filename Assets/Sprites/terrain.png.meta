@@ -186,7 +186,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Terrain Sprite Sheet_0
+      name: terrain_049
       rect:
         serializedVersion: 2
         x: 0
@@ -207,7 +207,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain Sprite Sheet_1
+      name: terrain_111
       rect:
         serializedVersion: 2
         x: 32
@@ -228,7 +228,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain Sprite Sheet_2
+      name: terrain_02
       rect:
         serializedVersion: 2
         x: 64
@@ -249,7 +249,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain Sprite Sheet_3
+      name: terrain_42
       rect:
         serializedVersion: 2
         x: 480
@@ -270,7 +270,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain Sprite Sheet_4
+      name: terrain_44
       rect:
         serializedVersion: 2
         x: 512
@@ -291,7 +291,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain Sprite Sheet_5
+      name: terrain_45
       rect:
         serializedVersion: 2
         x: 544
@@ -312,7 +312,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain Sprite Sheet_6
+      name: terrain_46
       rect:
         serializedVersion: 2
         x: 480
@@ -333,7 +333,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain Sprite Sheet_7
+      name: terrain_47
       rect:
         serializedVersion: 2
         x: 480
@@ -354,7 +354,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain Sprite Sheet_8
+      name: terrain_48
       rect:
         serializedVersion: 2
         x: 480
@@ -375,11 +375,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain Sprite Sheet_9
+      name: terrain_49
       rect:
         serializedVersion: 2
         x: 480
-        y: 64
+        y: 65
         width: 32
         height: 32
       alignment: 0
@@ -396,7 +396,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain Sprite Sheet_10
+      name: terrain_104
       rect:
         serializedVersion: 2
         x: 480
@@ -417,7 +417,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain Sprite Sheet_11
+      name: terrain_114
       rect:
         serializedVersion: 2
         x: 576
@@ -438,7 +438,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain Sprite Sheet_12
+      name: terrain_127
       rect:
         serializedVersion: 2
         x: 608
@@ -459,7 +459,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain Sprite Sheet_13
+      name: terrain_134
       rect:
         serializedVersion: 2
         x: 640
@@ -480,7 +480,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain Sprite Sheet_14
+      name: terrain_144
       rect:
         serializedVersion: 2
         x: 576
@@ -501,7 +501,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain Sprite Sheet_15
+      name: terrain_145
       rect:
         serializedVersion: 2
         x: 608
@@ -522,7 +522,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain Sprite Sheet_16
+      name: terrain_164
       rect:
         serializedVersion: 2
         x: 640
@@ -543,7 +543,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain Sprite Sheet_17
+      name: terrain_147
       rect:
         serializedVersion: 2
         x: 512
@@ -564,7 +564,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain Sprite Sheet_18
+      name: terrain_185
       rect:
         serializedVersion: 2
         x: 512
@@ -585,7 +585,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain Sprite Sheet_19
+      name: terrain_190
       rect:
         serializedVersion: 2
         x: 545
@@ -1097,7 +1097,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1118,7 +1118,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1139,7 +1139,7 @@ TextureImporter:
         width: 31
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1162,52 +1162,52 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      terrain_2: -1328101265
-      terrain_3: 1190291751
-      Terrain Sprite Sheet_13: -8005216121428396640
-      Terrain Sprite Sheet_2: -5071005537040011579
-      Terrain Sprite Sheet_12: 5340329334715981249
-      terrain_17: -748204215
-      terrain_11: -1062139233
-      Terrain Sprite Sheet_0: -332973145839050836
-      terrain_16: -1552374351
-      terrain_12: 408795478
-      Terrain Sprite Sheet_4: 3344529577572007489
-      Terrain Sprite Sheet_7: 6357161713786947824
-      terrain_8: -1720058470
-      terrain_15: -1991851292
       terrain_0: -1226099991
-      terrain_10: -1177984842
-      Terrain Sprite Sheet_19: 5119227710446509809
-      terrain_13: 1812125243
-      Terrain Sprite Sheet_5: -919653131898075759
-      terrain_21: -1336445826
-      Terrain Sprite Sheet_1: -2837220448456486600
-      terrain_5: -1547984594
-      Terrain Sprite Sheet_8: 87172897432420699
-      Terrain Sprite Sheet_16: -1386484260325146134
-      terrain_7: -1010114224
-      Terrain Sprite Sheet_3: -5642436073318564612
-      terrain_6: -765504452
-      terrain_20: -319446161
-      terrain_19: 2074711214
-      terrain_25: 1687541218
-      terrain_24: 1438753009
-      terrain_4: -2092033315
-      terrain_22: -672252084
-      Terrain Sprite Sheet_9: -2791745152204222779
-      Terrain Sprite Sheet_11: 4765675382222746094
-      terrain_14: 983350587
-      terrain_18: 76211804
-      Terrain Sprite Sheet_17: 8998902597756045070
-      terrain_9: -546821149
-      Terrain Sprite Sheet_18: 43186063744962383
-      Terrain Sprite Sheet_15: -5986852650243482189
+      terrain_02: -5071005537040011579
+      terrain_049: -332973145839050836
       terrain_1: 270519732
-      Terrain Sprite Sheet_14: -2276685880038349573
-      Terrain Sprite Sheet_10: -7384935297614118564
+      terrain_10: -1177984842
+      terrain_104: -7384935297614118564
+      terrain_11: -1062139233
+      terrain_111: -2837220448456486600
+      terrain_114: 4765675382222746094
+      terrain_12: 408795478
+      terrain_127: 5340329334715981249
+      terrain_13: 1812125243
+      terrain_134: -8005216121428396640
+      terrain_14: 983350587
+      terrain_144: -2276685880038349573
+      terrain_145: -5986852650243482189
+      terrain_147: 8998902597756045070
+      terrain_15: -1991851292
+      terrain_16: -1552374351
+      terrain_164: -1386484260325146134
+      terrain_17: -748204215
+      terrain_18: 76211804
+      terrain_185: 43186063744962383
+      terrain_19: 2074711214
+      terrain_190: 5119227710446509809
+      terrain_2: -1328101265
+      terrain_20: -319446161
+      terrain_21: -1336445826
+      terrain_22: -672252084
       terrain_23: 316020733
-      Terrain Sprite Sheet_6: -2082821305628030907
+      terrain_24: 1438753009
+      terrain_25: 1687541218
+      terrain_3: 1190291751
+      terrain_4: -2092033315
+      terrain_42: -5642436073318564612
+      terrain_44: 3344529577572007489
+      terrain_45: -919653131898075759
+      terrain_46: -2082821305628030907
+      terrain_47: 6357161713786947824
+      terrain_48: 87172897432420699
+      terrain_49: -2791745152204222779
+      terrain_5: -1547984594
+      terrain_6: -765504452
+      terrain_7: -1010114224
+      terrain_8: -1720058470
+      terrain_9: -546821149
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

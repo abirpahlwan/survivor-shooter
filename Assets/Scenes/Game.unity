@@ -576,7 +576,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   moveDirection: {x: 0, y: 0}
-  currentDirection: 0
+  lastHorizontalVector: 0
+  lastVerticalVector: 0
 --- !u!95 &2147088396
 Animator:
   serializedVersion: 5
