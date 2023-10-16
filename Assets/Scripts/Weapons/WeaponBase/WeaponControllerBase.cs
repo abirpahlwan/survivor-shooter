@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Serialization;
 
 // Base Weapon Controller
-public class WeaponController : MonoBehaviour
+public class WeaponControllerBase : MonoBehaviour
 {
     [Header("Weapon Stats")]
     public GameObject prefab;

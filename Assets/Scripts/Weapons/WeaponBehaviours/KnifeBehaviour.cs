@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KnifeBehaviour : ProjectileWeaponBehaviour
+public class KnifeBehaviour : ProjectileWeaponBehaviourBase
 {
     private KnifeController kc;
 
