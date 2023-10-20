@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // Base script for projectile weapons
-public class MeleeWeaponBehaviourBase : MonoBehaviour
+public class MeleeWeaponBase : MonoBehaviour
 {
+    protected Vector3 direction;
     public float destroyAfterSeconds;
     
     protected virtual void Start()
     {
-        Destroy(gameObject, destroyAfterSeconds);
+        
     }
     
 }

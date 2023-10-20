@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-// Base Weapon Controller
+/// <summary>
+/// Base Weapon Controller
+/// </summary>
 public class WeaponControllerBase : MonoBehaviour
 {
     [Header("Weapon Stats")]

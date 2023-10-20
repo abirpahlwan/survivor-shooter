@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// Base script for projectile weapons
-public class ProjectileWeaponBehaviourBase : MonoBehaviour
+/// <summary>
+/// Base script for all projectile weapons
+/// </summary>
+public class ProjectileWeaponBase : MonoBehaviour
 {
     protected Vector3 direction;
     public float destroyAfterSeconds;

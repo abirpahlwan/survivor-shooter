@@ -9,7 +9,7 @@ public class KnifeController : WeaponControllerBase
         base.Start();
     }
 
-    protected override void  Attack()
+    protected override void Attack()
     {
         base.Attack();
         GameObject knife = Instantiate(prefab);

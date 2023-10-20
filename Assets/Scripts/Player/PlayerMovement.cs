@@ -71,7 +71,6 @@ public class PlayerMovement : MonoBehaviour
         if (moveDirection.x != 0 && moveDirection.y != 0)
         {
             lastMoveDirection = new Vector2(lastMoveX, lastMoveY);
-            
         }
     }
 

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KnifeBehaviour : ProjectileWeaponBehaviourBase
+public class KnifeBehaviour : ProjectileWeaponBase
 {
     private KnifeController kc;
 
@@ -16,6 +16,6 @@ public class KnifeBehaviour : ProjectileWeaponBehaviourBase
     // Update is called once per frame
     void Update()
     {
-        transform.position += direction * kc.speed * Time.deltaTime;
+        transform.position += direction * (kc.speed * Time.deltaTime);
     }
 }
