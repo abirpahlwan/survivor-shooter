@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4944684793700683761}
+  - component: {fileID: 4167612421450326775}
   m_Layer: 0
   m_Name: garlic_weapon
   m_TagString: Untagged
@@ -32,6 +33,19 @@ Transform:
   - {fileID: 6196484234527727114}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4167612421450326775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406532593945411196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 043e769faa6fa4142be0d63bfbcf5cc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyAfterSeconds: 2
 --- !u!1 &4009758824824778533
 GameObject:
   m_ObjectHideFlags: 0
