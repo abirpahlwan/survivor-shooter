@@ -7,6 +7,9 @@ using UnityEngine;
 /// </summary>
 public class MeleeWeaponBase : MonoBehaviour
 {
+    [Header("Weapon Stats")]
+    public WeaponScriptableObject weaponData;
+    
     public float destroyAfterSeconds;
     
     protected virtual void Start()

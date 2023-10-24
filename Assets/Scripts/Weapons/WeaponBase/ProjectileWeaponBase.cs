@@ -7,6 +7,9 @@ using UnityEngine;
 /// </summary>
 public class ProjectileWeaponBase : MonoBehaviour
 {
+    [Header("Weapon Stats")]
+    public WeaponScriptableObject weaponData;
+    
     protected Vector3 direction;
     public float destroyAfterSeconds;
     

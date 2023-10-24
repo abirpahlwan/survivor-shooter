@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 043e769faa6fa4142be0d63bfbcf5cc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weaponData: {fileID: 11400000, guid: ebd1635c4f195454ca259242817b85fd, type: 2}
   destroyAfterSeconds: 2
 --- !u!1 &4009758824824778533
 GameObject:

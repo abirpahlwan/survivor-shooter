@@ -4,18 +4,15 @@ using UnityEngine;
 
 public class KnifeBehaviour : ProjectileWeaponBase
 {
-    private KnifeController kc;
-
     // Start is called before the first frame update
     protected override void Start()
     {
         base.Start();
-        kc = FindObjectOfType<KnifeController>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position += direction * (kc.speed * Time.deltaTime);
+        transform.position += direction * (weaponData.speed * Time.deltaTime);
     }
 }

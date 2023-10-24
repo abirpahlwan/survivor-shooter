@@ -12,7 +12,7 @@ public class GarlicController : WeaponControllerBase
     protected override void  Attack()
     {
         base.Attack();
-        GameObject garlic = Instantiate(prefab);
+        GameObject garlic = Instantiate(weaponData.prefab);
         garlic.transform.position = transform.position;
         garlic.transform.parent = transform;
     }
