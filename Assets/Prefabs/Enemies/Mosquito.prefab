@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1923479340439660027}
   - component: {fileID: 2285366144743246540}
   - component: {fileID: 7031691176764223146}
+  - component: {fileID: 8757562556143439636}
   m_Layer: 0
   m_Name: Mosquito
   m_TagString: Untagged
@@ -152,3 +153,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.40625, y: 1.75}
   m_EdgeRadius: 0
+--- !u!114 &8757562556143439636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541079955953551840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b1e4605e9d718046a463b02a7cb419c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyData: {fileID: 11400000, guid: 6fd1b778b8b0b8e4882f3e8db36fd830, type: 2}
