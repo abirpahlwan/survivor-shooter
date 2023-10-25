@@ -10,15 +10,15 @@ public class ProjectileWeaponBase : MonoBehaviour
 {
     [Header("Weapon Stats")]
     public WeaponScriptableObject weaponData;
+
+    // Current Stats
+    protected float currentDamage;
+    protected float currentSpeed;
+    protected float currentCooldownDuration;
+    protected int   currentPierce;
     
     protected Vector3 direction;
     public float destroyAfterSeconds;
-    
-    // Current Stats
-    public float currentDamage;
-    public float currentSpeed;
-    public float currentCooldownDuration;
-    public int   currentPierce;
 
     private void Awake()
     {
@@ -42,12 +42,21 @@ public class ProjectileWeaponBase : MonoBehaviour
         transform.rotation = Quaternion.Euler(rotation); 
     }
 
-    protected void OnTriggerEnter2D(Collider2D other)
+    void Pierce()
     {
-        print($"OnTriggerEnter2D {other.name}");
+        currentPierce--;
+        if (currentPierce <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    protected virtual void OnTriggerEnter2D(Collider2D other)
+    {
         if (other.CompareTag("Enemy"))
         {
-            print("Enemy Hit");
+            Pierce();
+            
             EnemyControllerBase enemy = other.GetComponent<EnemyControllerBase>();
             enemy.TakeDamage(currentDamage);
         }

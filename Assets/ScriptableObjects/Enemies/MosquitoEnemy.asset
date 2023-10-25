@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17783e32097dca241a5fd07391d37efd, type: 3}
   m_Name: MosquitoEnemy
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  moveSpeed: 1
   maxHealth: 10
   damage: 0
