@@ -12,6 +12,6 @@ public class GarlicBehaviour : MeleeWeaponBase
 
     void Update()
     {
-        
+         
     }
 }

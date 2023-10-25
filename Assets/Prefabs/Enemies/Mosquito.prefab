@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 2285366144743246540}
   - component: {fileID: 7031691176764223146}
   - component: {fileID: 8757562556143439636}
+  - component: {fileID: 800386799982898806}
   m_Layer: 0
   m_Name: Mosquito
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -166,3 +167,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyData: {fileID: 11400000, guid: 6fd1b778b8b0b8e4882f3e8db36fd830, type: 2}
+--- !u!114 &800386799982898806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541079955953551840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00f451d7ae5f4834398f43df8e7340bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyData: {fileID: 11400000, guid: 6fd1b778b8b0b8e4882f3e8db36fd830, type: 2}
+  currentMoveSpeed: 0
+  currentHealth: 0
+  currentDamage: 0

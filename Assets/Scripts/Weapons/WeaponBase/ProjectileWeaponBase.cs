@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,6 +14,20 @@ public class ProjectileWeaponBase : MonoBehaviour
     protected Vector3 direction;
     public float destroyAfterSeconds;
     
+    // Current Stats
+    public float currentDamage;
+    public float currentSpeed;
+    public float currentCooldownDuration;
+    public int   currentPierce;
+
+    private void Awake()
+    {
+        currentDamage = weaponData.damage;;
+        currentSpeed = weaponData.speed;;
+        currentCooldownDuration = weaponData.cooldownDuration;;
+        currentPierce = weaponData.pierce;
+    }
+
     protected virtual void Start()
     {
         Destroy(gameObject, destroyAfterSeconds);
@@ -25,5 +40,16 @@ public class ProjectileWeaponBase : MonoBehaviour
         Vector3 rotation = transform.rotation.eulerAngles;
         rotation.z = Utils.GetAngleFromDirection(direction);
         transform.rotation = Quaternion.Euler(rotation); 
+    }
+
+    protected void OnTriggerEnter2D(Collider2D other)
+    {
+        print($"OnTriggerEnter2D {other.name}");
+        if (other.CompareTag("Enemy"))
+        {
+            print("Enemy Hit");
+            EnemyControllerBase enemy = other.GetComponent<EnemyControllerBase>();
+            enemy.TakeDamage(currentDamage);
+        }
     }
 }

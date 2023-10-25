@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4944684793700683761}
   - component: {fileID: 4167612421450326775}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: garlic_weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 6196484234527727114}
   - component: {fileID: 3231359459704428791}
   - component: {fileID: 688721021163028875}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: wave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
