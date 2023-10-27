@@ -27,6 +27,9 @@
 .vs/
 .idea/
 
+# File System
+*.ini
+
 # Gradle cache directory
 .gradle/
 
