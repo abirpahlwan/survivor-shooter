@@ -543,6 +543,7 @@ GameObject:
   - component: {fileID: 2147088396}
   - component: {fileID: 2147088395}
   - component: {fileID: 2147088397}
+  - component: {fileID: 2147088398}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -703,7 +704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a94fe6920d2d804a8cf14a2e429aa94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  playerData: {fileID: 11400000, guid: 18d801930c8aa594593c2a27b3af0dcc, type: 2}
   moveDirection: {x: 0, y: 0}
   lastMoveDirection: {x: 0, y: 0}
   lastMoveX: 0
@@ -741,6 +742,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9ca4f5982fd52242a9e1128c15c85a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2147088398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2147088390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74cd3c767dd72fc419ec4f194393609c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerData: {fileID: 11400000, guid: 18d801930c8aa594593c2a27b3af0dcc, type: 2}
+  currentHealth: 0
+  currentRecovery: 0
+  currentMoveSpeed: 0
+  currentMight: 0
+  currentProjectileSpeed: 0
 --- !u!1001 &5406851337115896006
 PrefabInstance:
   m_ObjectHideFlags: 0

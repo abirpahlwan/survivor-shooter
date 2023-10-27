@@ -6,14 +6,15 @@ using UnityEngine.Serialization;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private Rigidbody2D rb;
-    
-    [SerializeField] private float moveSpeed;
+    // Player Config
+    public CharacterScriptableObject playerData;
     
     [HideInInspector] public Vector2 moveDirection;
     [HideInInspector] public Vector2 lastMoveDirection;
     [HideInInspector] public float lastMoveX;
     [HideInInspector] public float lastMoveY;
+    
+    private Rigidbody2D rb;
     
     /*public enum Direction
     {
@@ -46,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
     
     void Move()
     {
-        rb.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed );
+        rb.velocity = new Vector2(moveDirection.x * playerData.MoveSpeed, moveDirection.y * playerData.MoveSpeed);
     }
 
     void HandleInput()
