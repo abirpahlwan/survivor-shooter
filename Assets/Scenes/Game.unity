@@ -755,11 +755,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerData: {fileID: 11400000, guid: 18d801930c8aa594593c2a27b3af0dcc, type: 2}
-  currentHealth: 0
-  currentRecovery: 0
-  currentMoveSpeed: 0
-  currentMight: 0
-  currentProjectileSpeed: 0
+  xp: 0
+  level: 1
+  xpCap: 100
+  xpCapIncrease: 100
 --- !u!1001 &5406851337115896006
 PrefabInstance:
   m_ObjectHideFlags: 0

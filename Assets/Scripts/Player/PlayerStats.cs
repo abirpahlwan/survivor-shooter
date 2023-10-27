@@ -8,11 +8,17 @@ public class PlayerStats : MonoBehaviour
     public CharacterScriptableObject playerData;
     
     // Current Stats
-    public float currentHealth;
-    public float currentRecovery;
-    public float currentMoveSpeed;
-    public float currentMight;
-    public float currentProjectileSpeed;
+    private float currentHealth;
+    private float currentRecovery;
+    private float currentMoveSpeed;
+    private float currentMight;
+    private float currentProjectileSpeed;
+    
+    // XP and Level-up
+    [SerializeField] private int xp = 0;
+    [SerializeField] private int level = 0;
+    [SerializeField] private int xpCap = 100;
+    [SerializeField] private int xpCapIncrease;
 
     void Awake()
     {
@@ -22,17 +28,19 @@ public class PlayerStats : MonoBehaviour
         currentMight = playerData.Might;
         currentProjectileSpeed = playerData.ProjectileSpeed;
     }
-    
-    
-    // Start is called before the first frame update
-    void Start()
+
+    public void IncreaseXP(int amount)
     {
-        
+        xp += amount;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void CheckLevelUp()
     {
-        
+        if (xp >= xpCap)
+        {
+            level++;
+            xp -= xpCap;
+            xpCap += xpCapIncrease;
+        }
     }
 }
