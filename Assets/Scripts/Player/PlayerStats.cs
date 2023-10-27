@@ -15,10 +15,17 @@ public class PlayerStats : MonoBehaviour
     private float currentProjectileSpeed;
     
     // XP and Level-up
-    [SerializeField] private int xp = 0;
-    [SerializeField] private int level = 0;
-    [SerializeField] private int xpCap = 100;
-    [SerializeField] private int xpCapIncrease;
+    [Header("XP & Level-up")]
+    private int xp = 0;
+    private int level = 1;
+    private int xpCap;
+
+    public List<LevelRange> levelRanges;
+
+    void Start()
+    {
+        xpCap = levelRanges[0].xpCapIncrease;
+    }
 
     void Awake()
     {
@@ -29,9 +36,10 @@ public class PlayerStats : MonoBehaviour
         currentProjectileSpeed = playerData.ProjectileSpeed;
     }
 
-    public void IncreaseXP(int amount)
+    private void IncreaseXP(int amount)
     {
         xp += amount;
+        CheckLevelUp();
     }
 
     private void CheckLevelUp()
@@ -40,7 +48,25 @@ public class PlayerStats : MonoBehaviour
         {
             level++;
             xp -= xpCap;
+
+            int xpCapIncrease = 0;
+            foreach (var range in levelRanges)
+            {
+                if (level >= range.startLevel && level <= range.endLevel)
+                {
+                    xpCapIncrease = range.xpCapIncrease;
+                    break;
+                }
+            }
             xpCap += xpCapIncrease;
         }
     }
+}
+
+[System.Serializable]
+public class LevelRange
+{
+    public int startLevel;
+    public int endLevel;
+    public int xpCapIncrease;
 }
