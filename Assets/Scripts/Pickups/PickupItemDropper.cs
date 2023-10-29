@@ -7,10 +7,17 @@ public class PickupItemDropper : MonoBehaviour
 {
     public List<PickupItem> items;
 
+    private bool isQuitting;
+    void OnApplicationQuit()
+    {
+        isQuitting = true;
+    }
+
     private void OnDestroy()
     {
-        float percentage = UnityEngine.Random.Range(0, 1);
-        print($"percentage {percentage}");
+        if (isQuitting) return;
+
+        float percentage = UnityEngine.Random.Range(0f, 1f);
         // int current_weight = 0;
         foreach (var item in items)
         {

@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    [Header("Enemy Stats")]
-    public EnemyScriptableObject enemyData;
-    
+    private EnemyControllerBase enemyController;
     private Transform player;
     
     void Start()
     {
+        enemyController = GetComponent<EnemyControllerBase>();
         player = FindObjectOfType<PlayerMovement>().transform;
     }
 
@@ -18,7 +17,7 @@ public class EnemyMovement : MonoBehaviour
     {
         if (Vector2.Distance(transform.position, player.transform.position) > 1)
         {
-            transform.position = Vector2.MoveTowards(transform.position, player.transform.position, enemyData.moveSpeed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, player.transform.position, enemyController.currentMoveSpeed * Time.deltaTime);
         }
     }
 }

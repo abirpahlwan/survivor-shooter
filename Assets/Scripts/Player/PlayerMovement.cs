@@ -6,7 +6,7 @@ using UnityEngine.Serialization;
 
 public class PlayerMovement : MonoBehaviour
 {
-    // Player Config
+    [Header("Player Data")]
     public CharacterScriptableObject playerData;
     
     [HideInInspector] public Vector2 moveDirection;
