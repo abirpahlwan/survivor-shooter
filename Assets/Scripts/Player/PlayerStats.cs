@@ -36,7 +36,7 @@ public class PlayerStats : MonoBehaviour
         currentProjectileSpeed = playerData.ProjectileSpeed;
     }
 
-    private void IncreaseXP(int amount)
+    public void IncreaseXP(int amount)
     {
         xp += amount;
         CheckLevelUp();

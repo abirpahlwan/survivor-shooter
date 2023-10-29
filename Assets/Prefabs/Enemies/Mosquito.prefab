@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7031691176764223146}
   - component: {fileID: 8757562556143439636}
   - component: {fileID: 800386799982898806}
+  - component: {fileID: 4791783434562946598}
   m_Layer: 0
   m_Name: Mosquito
   m_TagString: Enemy
@@ -183,3 +184,28 @@ MonoBehaviour:
   currentMoveSpeed: 0
   currentHealth: 0
   currentDamage: 0
+--- !u!114 &4791783434562946598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541079955953551840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 739456f87372f4c488a4c7d31523ff5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items:
+  - itemName: Green Pickle
+    itemPrefab: {fileID: 3308866026585659955, guid: 0fab0433df6059c4c9e08783adddcd70, type: 3}
+    dropRate: 0.5
+  - itemName: Golden Pickle
+    itemPrefab: {fileID: 1389102740262203107, guid: 600c69cfc7e6e0942869fd1f0cf128b0, type: 3}
+    dropRate: 0.02
+  - itemName: Beer
+    itemPrefab: {fileID: 8646656608226606209, guid: 8c3ca7523e074644fadbd9fce602cd88, type: 3}
+    dropRate: 0.01
+  - itemName: Poop
+    itemPrefab: {fileID: 4941420458658682631, guid: 498a788b9021da14b928ef19e8317a05, type: 3}
+    dropRate: 0.001
