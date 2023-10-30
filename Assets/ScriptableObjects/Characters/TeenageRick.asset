@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterName: Teenage Rick
   StartingWeapon: {fileID: 0}
-  MaxHealth: 0
+  MaxHealth: 100
   Recovery: 0
   MoveSpeed: 5
   Might: 0

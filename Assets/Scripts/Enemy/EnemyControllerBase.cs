@@ -42,4 +42,13 @@ public class EnemyControllerBase : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            PlayerStats player = other.gameObject.GetComponent<PlayerStats>();
+            player.TakeDamage(currentDamage);
+        }
+    }
 }
