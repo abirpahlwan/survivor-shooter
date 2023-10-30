@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,6 +13,8 @@ public class EnemyControllerBase : MonoBehaviour
     public float currentHealth;
     public float currentDamage;
 
+    private EnemyFlash enemyFlashFX;
+
     private void Awake()
     {
         currentMoveSpeed = enemyData.moveSpeed;
@@ -19,8 +22,15 @@ public class EnemyControllerBase : MonoBehaviour
         currentDamage = enemyData.damage;
     }
 
+    private void Start()
+    {
+        enemyFlashFX = GetComponent<EnemyFlash>();
+    }
+
     public void TakeDamage(float damage)
     {
+        enemyFlashFX.Flash();
+
         currentHealth -= damage;
         if (currentHealth <= 0)
         {
